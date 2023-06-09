@@ -2,30 +2,103 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
     <title>enigmo | encriptador de Texto</title>
+
+    <!--Font: Quicksand-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <!---->
+
 </head>
+
 
 <body>
 
-<header>
-Hola
-</header>
+    <header>
+         <picture class="Enigmo-logo">
+             <source srcset="elementos/Logo_enigmo-PCyTABLETversion.svg" media="(min-width: 768px)">
+             <source srcset="elementos/Logo_enigmo-MOBILEversion.svg" media="(min-width: 0px)"> 
+             <img src="elementos/Logo_enigmo-PCyTABLETversion.svg" alt="Enigmo Logo">
+        </picture>
+    </header>
 
-<main>
 
-</main>
+    <main>
 
-<footer>
+        <section class="user-area">
+            <textarea type="text" class="input-area" id="input" placeholder="Ingrese su texto aquí. Solo letras minúsculas y sin acentos."></textarea>
+            <div class="buttons">
+                <button class="encriptar_button" id="button1">encriptar</button>
+                <button class="desencriptar_button" id="button2">desencriptar</button>
+            </div>
+        </section>
 
-</footer>
+        <section class="output-area">
+            <textarea class="output-message"></textarea>
+            <div>
+                <button class="copiar_button" id="button3">copiar</button>
+            </div>
+        </section>
+
+        <div class="info_link">
+            <a href="info_page.html"> 
+                <picture>
+                    <source srcset="elementos/icon_informacion-PCyTABLETversion.svg" media="(min-width: 768px)">
+                    <source srcset="elementos/icon_informacion-MOBILEversion.svg" media="(min-width: 0px)">
+                    <img src="elementos/icon_informacion-PCyTABLETversion.svg" alt="Informacion"> 
+                </picture>
+            </a>
+        </div>
+
+        <div class="enigmo_avatar">
+            <img class="enigmo_imagen" id="status" src="elementos/enigmo_hello-450x450.png">
+        </div>
+        
+    </main>
+
     
-</body>
+    <footer>
+        <p class="by-message">Sitio desarrollado por <strong>Cristian Herrera</strong></p>
 
+        <div class="contact-info">
+                <a href="https://github.com/crisarhp" target="_blank" rel="noopener noreferrer"> 
+                    <picture>
+                        <source srcset="elementos/box_Github-PCversion.svg" media="(min-width: 1440px)">
+                        <source srcset="elementos/box_Github-TABLETversion.svg" media="(min-width: 768px)">
+                        <source srcset="elementos/box_Github-MOBILEversion.svg" media="(min-width: 0px)">
+                        <img src="elementos/box_Github-PCversion.svg" alt="Github"> 
+                    </picture>
+                </a>
+            
+                <a href="mailto:crisarhp@outlook.com" target="_blank" rel="noopener noreferrer">
+                    <picture> 
+                        <source srcset="elementos/box_Outlook-PCversion.svg" media="(min-width: 1440px)">
+                        <source srcset="elementos/box_Outlook-TABLETversion.svg" media="(min-width: 768px)">
+                        <source srcset="elementos/box_Outlook-MOBILEversion.svg" media="(min-width: 0px)">
+                        <img src="elementos/box_Outlook-PCversion.svg" alt="Outlook">
+                    </picture>
+                </a>
+
+        </div>
+
+        <picture class="AluraOracle_logo"> 
+            <source srcset="elementos/logo_AluraOracle-PCversion.png" media="(min-width: 1440px)">
+            <source srcset="elementos/logo_AluraOracle-TABLETversion.png" media="(min-width: 768px)">
+            <source srcset="elementos/logo_AluraOracle-MOBILEversion.png" media="(min-width: 0px)">
+            <img src="elementos/logo_AluraOracle-PCversion.png" alt="Logo Alura-Oracle">
+        </picture>
+
+    </footer>
+        
+    </body>
 </html>
+
+
+
