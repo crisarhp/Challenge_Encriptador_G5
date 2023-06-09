@@ -59,6 +59,28 @@
 
         <div class="enigmo_avatar">
             <img class="enigmo_imagen" id="status" src="elementos/enigmo_hello-450x450.png">
+            
+            <script>
+                window.onload = function() {
+                    document.getElementById("status").src = "elementos/enigmo_hello-450x450.png";
+            
+                    document.getElementById("input").addEventListener("focus", function() {
+                        document.getElementById("status").src = "elementos/enigmo_looking-450x450.png";
+                    });
+            
+                    document.getElementById("button1").addEventListener("click", function() {
+                        document.getElementById("status").src = "elementos/enigmo_locked-450x450.png";
+                    });
+            
+                    document.getElementById("button2").addEventListener("click", function() {
+                        document.getElementById("status").src = "elementos/enigmo_unlocked-450x450.png";
+                    });
+
+                    document.getElementById("button3").addEventListener("click", function() {
+                        document.getElementById("status").src = "elementos/enigmo_hello-450x450.png";
+                    });
+                }
+            </script> 
         </div>
         
     </main>
