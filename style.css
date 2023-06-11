@@ -6,7 +6,6 @@
     border: none;
     margin: 0;
     padding: 0;
-
 }
 
 textarea:focus-visible{
@@ -294,20 +293,105 @@ footer{
 
 @media screen and (min-width: 768px) {
 
-    /*-------------Header-------------*/
-
-    header{
-        background-color: yellow;
-    }
-  
     /*--------------Main--------------*/
 
-    .enigmo_imagen {
-        width: 400px;
-        height: 400px;
+    main{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-left: 3%;
     }
 
+    .user-area{
+        display: inline-flex;
+        margin-bottom: 3%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+        .input-area{
+            width: 325px;
+            height: 380px;
+        }
+
+            .input-area:placeholder-shown{
+                font-size: 1.5em;
+            }
+
+        .buttons button{
+            font-size: 22px;
+            line-height: 28px;
+            width: 155px;
+            height: 50px;
+        }   
+
+            .encriptar_button:hover{
+                background: #00ADB7;
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-weight: bold;
+                color: #EEEEEE;
+                transition: 1s all;;
+            }
+
+
+            .desencriptar_button:hover{
+                background: #9200D7;
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-weight: bold;
+                color: #EEEEEE;
+                transition: 1s all;
+            }
+ 
+    .output-area{
+            display: inline-block;
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+            margin-bottom: 3%;
+        }
+
+        .output-message{
+            width: 325px;
+            height: 380px;
+            }
+        
+        .copiar_button {
+            width: 155px;
+            height: 50px;
+            font-weight: 500;
+            font-size: 22px;
+            color: black;
+        }
+
+            .copiar_button:hover{
+                background: #FAFAFA;
+                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 35px;
+                color: #449A00;
+                transition: 1s all;
+                font-weight: bold;
+            }
+
+            .info_icon_svg:hover{
+                width: 180px;
+                height: 180px;
+                transition: 2s all;
+            }
+
+            .enigmo_imagen {
+                width: 400px;
+                height: auto;
+               
+            }
+
     /*-------------Footer-------------*/
+
+    .contact-info{
+        justify-content: center;
+    }
 
 }/*______________________________________*/
 
@@ -316,14 +400,6 @@ footer{
 /*____________DESKTOP VERSION____________*/
 
 @media screen and (min-width: 1440px) {
-
-    /*-------------Header-------------*/
-    
-    header{
-        background-color: white;
-
-    }
-        
 
     /*--------------Main--------------*/
 
@@ -401,7 +477,6 @@ footer{
                 font-weight: bold;
             }
     
-        
         .right_main_area {
             margin-left: 1.5%;
         }
