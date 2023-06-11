@@ -2,26 +2,160 @@
 
 *{
     font-family: 'Quicksand';
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 0;
+
 }
+
+textarea:focus-visible{
+    outline: none;
+}
+
+button{
+    user-select: none;
+}
+
+/*_______________GENERAL STYLE_______________*/
+
+body{
+    width: 100%;
+}
+
+textarea{
+    font-size: 1.5em;
+}
+
+
+
+/*-------------Header-------------*/
+
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+/*--------------Main--------------*/
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+
+    .input-area{
+        box-sizing: border-box;
+        background: #EEEEEE;
+        mix-blend-mode: normal;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10%;        
+        padding: 10%;
+    }
+        
+    .buttons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+        .buttons button{
+            background: #EEEEEE;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 35px;
+            
+        }
+
+            .encriptar_button{
+                color: #00ADB7;
+            }
+
+            .desencriptar_button{
+                color: #9200D7;
+                
+            }
+
+    .output-box{
+        background: rgba(0, 152, 160, 0.1);
+        border-radius: 10%;
+    }
+        .output-message{
+            background: none;
+            box-sizing: border-box;
+            padding: 10%;
+        }
+
+        .copy_area{
+            
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding: 5%;
+        }
+
+        .copiar_button {
+            background: #FAFAFA;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 35px;
+        }
+
+    .right_main_area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+
+/*-------------Footer-------------*/
+
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #212121;
+    flex-wrap: nowrap;
+}
+
+    .by_message{
+    font-size: 1.20em;
+    letter-spacing: 0.1em;
+    color: #EEEEEE;
+    margin-top: 2%; 
+    }
+
+    .contact-info{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1.2%; 
+    }
+
+    .AluraOracle_logo{
+        margin-top: 1.2%;
+        margin-bottom: 2%;
+    }
+
 
 
 /*____________SMARTPHONE VERSION____________*/
 
-@media screen and (min-width: 0px) {
-
-    /*-------------Header-------------*/
+@media screen and (max-width: 768px) {
 
    
-
-    /*--------------Main--------------*/
-
-    .enigmo_imagen {
-        width: 300px;
-        height: 300px;
-    }
-
-    /*-------------Footer-------------*/
-
 }/*________________________________________*/
 
 
@@ -32,7 +166,9 @@
 
     /*-------------Header-------------*/
 
-    
+    header{
+        background-color: yellow;
+    }
   
     /*--------------Main--------------*/
 
@@ -51,19 +187,7 @@
 
 @media screen and (min-width: 1440px) {
 
-    /*-------------Header-------------*/
-
     
-
-    /*--------------Main--------------*/
-
-    .enigmo_imagen {
-        width: 450px;
-        height: 450px;
-    }
-
-    /*-------------Footer-------------*/
-
 }/*______________________________________*/
 
 
