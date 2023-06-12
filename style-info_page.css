@@ -50,13 +50,12 @@ header{
 /*--------------Main--------------*/
 
 main {
-    display: flex;
     width: 100%;
     height: 100%;
     margin-top: 3%;
 }
 
-    .hello_section{
+    .hello_block{
         background: #EEEEEE;
         border-radius: 30px;
     }
@@ -103,7 +102,7 @@ main {
         flex-direction: column;
     }
 
-    .hello_section{
+    .hello_block{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -123,3 +122,36 @@ main {
     }
 
 }/*________________________________________*/
+
+
+/*____________TABLET VERSION____________*/
+
+@media screen and (min-width: 768px) {
+
+    /*--------------Main--------------*/
+ 
+    .home_section{
+        display: flex;
+        margin: 0% 2% 1.5% 2%;
+    }
+        .hello_block{
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        
+        .how_block{
+            margin-left: 2%;
+        }
+ 
+        .what_block{
+            margin: 0% 2% 1.5% 2%;
+        }
+    
+        .credits_section{
+            margin: 0% 2% 1.5% 2%;
+        }
+ 
+ }/*______________________________________*/
+ 
