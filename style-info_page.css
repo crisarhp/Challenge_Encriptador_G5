@@ -82,3 +82,44 @@ main {
        }
 
 /*___________________________________________*/
+
+
+
+/*____________SMARTPHONE VERSION____________*/
+
+@media screen and (max-width: 768px) {
+
+    /*-------------Header-------------*/
+
+    header{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+   /*--------------Main--------------*/
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hello_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0% 5% 3% 5%;
+    }
+ 
+    .how_block{
+        margin: 0% 5% 3% 5%;
+    }
+ 
+    .what_block{
+        margin: 0% 5% 3% 5%;
+    }
+
+    .credits_section{
+        margin: 0% 5% 5% 5%;
+    }
+
+}/*________________________________________*/
