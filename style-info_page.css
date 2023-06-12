@@ -1,0 +1,84 @@
+/*_______________SETTINGS_______________*/
+*{
+    border: none;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #acf9ff;
+}
+
+
+
+/*_______________GENERAL STYLE_______________*/
+
+/*-------------Header-------------*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+/*--------------Main--------------*/
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+    .hello_section{
+        background: #EEEEEE;
+        border-radius: 30px;
+    }
+        
+        .how_block{
+            background: #E0FDFF;
+            border-radius: 30px;
+            padding: 30px;
+        }
+
+        .what_block{
+            background: #F3E0FF;
+            border-radius: 30px;
+            padding: 30px;
+        }
+
+       .credits_section{
+            color: #dfdfdf;
+            background: #212121;
+            border-radius: 30px;
+            padding: 30px;
+            text-align: center;
+       }
+
+/*___________________________________________*/

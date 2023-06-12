@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style_.css">
+    <link rel="stylesheet" href="style-info_page.css">
     <title>enigmo | Informacion</title>
 
     <!--Font: Quicksand-->
@@ -22,70 +22,88 @@
 
     <header>
 
-         <picture class="Enigmo-logo">
-             <source srcset="elementos/Logo_enigmo-PCyTABLETversion.svg" media="(min-width: 768px)">
-             <source srcset="elementos/Logo_enigmo-MOBILEversion.svg" media="(max-width: 768px)"> 
-             <img src="elementos/Logo_enigmo-PCyTABLETversion.svg" alt="Enigmo Logo">
+        <picture class="enigmo-logo">
+            <source srcset="elementos/Logo_enigmo-PCyTABLETversion.svg" media="(min-width: 768px)">
+            <source srcset="elementos/Logo_enigmo-MOBILEversion.svg" media="(max-width: 768px)"> 
+            <img src="elementos/Logo_enigmo-PCyTABLETversion.svg" alt="Enigmo Logo">
         </picture>
-
-        <div class="back_link">
-            <a href="index.html"> 
-                <picture>
-                    <source srcset="elementos/icon_regresar-PCyTABLETversion.svg" media="(min-width: 768px)">
-                    <source srcset="elementos/icon_regresar-MOBILEversion.svg" media="(max-width: 768px)">
-                    <img src="elementos/icon_regresar-PCyTABLETversion.svg" alt="Informacion"> 
-                </picture>
-            </a>
-        </div>
 
     </header>
 
 
     <main>
 
-        <picture class="enigmo_hello">
-            <source srcset="elementos/enigmo_info_hello-PCversion.png" media="(min-width: 768px)">
-            <source srcset="elementos/enigmo_info_hello-TABLETyMOBILEversion.png" media="(max-width: 768px)">
-            <img src="elementos/enigmo_info_hello-PCversion.png" alt="Hello enigmo"> 
-        </picture> 
-
-        <section class="page_info"> 
-            <h2>¿Cómo se usa el encriptador de texto?</h2>
+        <section class="hello_section">
             
-            <p>Para usar  <b>enigmo encriptador de texto</b> ingrese el texto que desea transformar en la casilla indicada, luego puede darle a enigmo la orden de <em>encriptar</em> o <em>desencriptar</em>, haciendo clic en los botones que lo indican. Posteriormente podra hacer copia de su texto transformado.</p>
-
-            <h2>¿Qué significa encriptar o desencriptar el texto?</h2>
-
-            <p>Si le indica a enigmo <em>encriptar</em> su texto, este lo tranformará en un texto encriptado, bajo las claves: e=enter, i=imes, a=ai, o=ober, u=ufat. En cambio, si indica <em>desencriptar</em> su texto <i>(este debe haber sido previamente encriptado por enigmo)</i>, se realizará el mismo proceso a la inversa, dando como resultado un texto descifrado.</p>
+            <picture class="enigmo_hello">
+                <source srcset="elementos/enigmo_info_hello-PCversion.png" media="(min-width: 768px)">
+                <source srcset="elementos/enigmo_info_hello-MOBILEversion.png" media="(max-width: 768px)">
+                <img class="enigmo_hello" src="elementos/enigmo_info_hello-PCversion.png" alt="Hello enigmo"> 
+            </picture>
             
-            <p>Utilice enigmo para cifrar y decifrar mensajes en forma segura.</p>
-        </section>
-
-        <section class="proyect_info">
-            <h3>SOBRE ESTE SITIO WEB:</h3>
-
-            <p class="paragraph2">Este proyecto es parte del primer desafío del programa de Oracle Next Education, y tiene como objetivo poner en práctica los conocimientos adquiridos durante la formación de Principiante en Programación, impartida por Alura Latam. </p>
-
-            <p class="paragraph2">Esta aplicación web ha sido desarrollada por <b>Cristian Herrera</b> , y puede encontrar todo a cerca de su desarrollo en su <a href="https://github.com/crisarhp/Challenge_Encriptador_G5.git" target="_blank" rel="noopener noreferrer">repositorio de GitHub</a>.</p>
-
-            CONTACTO: <strong><br><br>
-
-            GitHub: <a href="https://github.com/crisarhp" target="_blank" rel="noopener noreferrer">crisarhp</a><br>
-
-            Email: <a href="mailto:crisarhp@outlook.com" target="_blank" rel="noopener noreferrer">crisarhp@outlook.com</a><br>
-
-            LinkedIn: <a href="https://www.linkedin.com/in/cristianherrerap/" target="_blank" rel="noopener noreferrer">cristianherrerap</a><br>   
-            </strong>
-        </section>
-
-        <picture class="AluraOracle_logo"> 
-            <source srcset="elementos/logo_AluraOracle-PCversion.png" media="(min-width: 1440px)">
-            <source srcset="elementos/logo_AluraOracle-TABLETversion.png" media="(min-width: 768px)">
-            <source srcset="elementos/logo_AluraOracle-MOBILEversion.png" media="(max-width: 768px)">
-            <img src="elementos/logo_AluraOracle-PCversion.png" alt="Logo Alura-Oracle">
-        </picture>
+            <div class="back_link">
+                <a href="index.html"> 
+                    <picture class="back_icon">
+                        <source srcset="elementos/icon_regresar-PCyTABLETversion.svg" media="(min-width: 768px)">
+                        <source srcset="elementos/icon_regresar-MOBILEversion.svg" media="(max-width: 768px)">
+                        <img class="back_icon" src="elementos/icon_regresar-PCyTABLETversion.svg" alt="Informacion"> 
+                    </picture>
+                </a>
+            </div>
         
+        </section>
+
+        <section class="about_section">
+
+            <div class="how_block">
+                <h2>¿Cómo se usa el encriptador de texto?</h2>
+                <p>Para usar  enigmo encriptador de texto ingrese el texto que desea transformar en la casilla indicada, luego puede darle a enigmo la orden de <em>encriptar</em> o <em>desencriptar</em>, haciendo clic en los botones que lo indican. Posteriormente podra hacer copia de su texto transformado.</p>
+            </div>
+
+            <div class="what_block">
+                <h2>¿Qué significa encriptar o desencriptar el texto?</h2>
+                <p>Si le indica a enigmo <em>encriptar</em> su texto, este lo tranformará en un texto encriptado, bajo las claves: e=enter, i=imes, a=ai, o=ober, u=ufat. En cambio, si indica <em>desencriptar</em> su texto <i>(este debe haber sido previamente encriptado por enigmo)</i>, se realizará el mismo proceso a la inversa, dando como resultado un texto descifrado.</p>
+                <p>Utilice enigmo para cifrar y decifrar mensajes en forma segura.</p>
+            </div>
+        
+        </section>
+
+        <section class="credits_section">
+
+            <div class="project_block">
+                <h2>SOBRE ESTE SITIO WEB:</h2>
+                <p class="paragraph2">Este proyecto es parte del primer desafío del programa de Oracle Next Education, y tiene como objetivo poner en práctica los conocimientos adquiridos durante la formación de Principiante en Programación, impartida por Alura Latam. </p>
+                <p class="paragraph2">Esta aplicación web ha sido desarrollada por <b>Cristian Herrera</b> , y puede encontrar todo a cerca de su desarrollo en su <a href="https://github.com/crisarhp/Challenge_Encriptador_G5.git" target="_blank" rel="noopener noreferrer">repositorio de GitHub</a>.</p>
+            </div>
+
+            <div class="contact_block">
+                <br>
+                <p>CONTACTO:</p> 
+                <p>
+                GitHub: 
+                <a 
+                    href="https://github.com/crisarhp" target="_blank" rel="noopener noreferrer">crisarhp
+                </a><br>
+                Email: 
+                <a 
+                    href="mailto:crisarhp@outlook.com" target="_blank" rel="noopener noreferrer">crisarhp@outlook.com
+                </a><br>
+                LinkedIn: 
+                <a
+                    href="https://www.linkedin.com/in/cristianherrerap/" target="_blank" rel="noopener noreferrer">cristianherrerap</a><br>   
+                </p>
+            </div>
+
+            <picture class="AluraOracle_logo"> 
+                <source srcset="elementos/logo_AluraOracle-PCversion.png" media="(min-width: 1440px)">
+                <source srcset="elementos/logo_AluraOracle-TABLETversion.png" media="(min-width: 768px)">
+                <source srcset="elementos/logo_AluraOracle-MOBILEversion.png" media="(max-width: 768px)">
+                <img class="AluraOracle_logo" src="elementos/logo_AluraOracle-PCversion.png" alt="Logo Alura-Oracle">
+            </picture>
+
+        </section>
+
     </main>
-        
-    </body>
+            
+</body>
 </html>
