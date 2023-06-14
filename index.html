@@ -15,7 +15,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-    <!---->
+    <!------------------->
 
 </head>
 
@@ -34,7 +34,7 @@
     <main>
 
         <section class="user-area">
-            <textarea type="text" class="input-area" id="input" placeholder="Ingrese su texto aquí. Solo letras minúsculas y sin acentos."></textarea>
+            <textarea type="text" class="input-area" id="input" placeholder="Ingrese su texto aquí."></textarea>
         
             <div class="buttons">
                 <button class="encriptar_button" id="button1">encriptar</button>
@@ -44,7 +44,7 @@
 
         <section class="output-area">
             <div class="output-box">
-                <textarea class="output-message"></textarea>
+                <textarea class="output-message" id="output" readonly=”readonly” placeholder="Ningún mensaje fue encontrado."></textarea>
                 <div class="copy_area">
                     <button class="copiar_button" id="button3">copiar</button> 
                 </div>
@@ -55,7 +55,7 @@
 
             <div class="info_link">
                 <a href="info_page.html"> 
-                    <picture>
+                    <picture class="info_icon_svg">
                         <source srcset="elementos/icon_informacion-PCyTABLETversion.svg" media="(min-width: 768px)">
                         <source srcset="elementos/icon_informacion-MOBILEversion.svg" media="(max-width: 768px)">
                         <img class="info_icon_svg" src="elementos/icon_informacion-PCyTABLETversion.svg" alt="Informacion"> 
@@ -90,6 +90,9 @@
         </section>
     </main>
 
+    <script 
+        src="script-encriptador.js">
+    </script>
     
     <footer>
         <div class="by_message">
