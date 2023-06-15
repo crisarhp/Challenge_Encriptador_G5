@@ -1,7 +1,9 @@
 /*_______________SETTINGS_______________*/
 *{
     border: none;
+    font-family: 'Quicksand', sans-serif;
 }
+
 
 body{
     width: 100%;
@@ -10,15 +12,12 @@ body{
 }
 
 h2{
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
 }
 
 p{
-    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -281,3 +280,9 @@ main {
             flex-direction: column;
         }
 }/*______________________________________*/
+
+.license *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.90em;
+    color: #adadad;
+}

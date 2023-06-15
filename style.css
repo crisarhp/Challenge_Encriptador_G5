@@ -524,8 +524,17 @@ footer{
 
 }/*______________________________________*/
 
+.license{
+    margin: 0% 5% 2% 5%;
+    text-align: center;
+}
 
-
+.license *{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.90em;
+    color: #adadad;
+}
 
 
 
