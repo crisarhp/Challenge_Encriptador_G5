@@ -5,7 +5,7 @@
 
 [![Website][enigmo-label]][enigmo-url]![enignm-icon](elementos/enigmo-icon.png) [![license][license-label]][licencia-url] [![releases][releases-label]][releases-url] 
 [![ONE][challenge-label]][challenge-url] [![ONE][one-label]][one-url] [![Alura][alura-label]][alura-url]  
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] [![readme][leeme-shield]][leeme-url]
 
 
 ## What is the enigmo text encryptor?
@@ -69,7 +69,7 @@ thaink yoberufat foberr ufatsimesng enternimesgmober, thenter tenterxt enterncry
 Enigmo encriptador de texto © 2023 by Cristian Herrera is licensed under CC BY-NC-SA 4.0 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[releases-label]: https://img.shields.io/badge/ver-Releases-blueviolet
+[releases-label]: https://img.shields.io/badge/see-Releases-blueviolet
 [releases-url]: https://github.com/crisarhp/Enigmo_encriptador_de_texto-ONEG5/releases
 [enigmo1]: https://img.shields.io/badge/ENIGMO-blueviolet
 [enigmo-label]: https://img.shields.io/badge/website-ENIGMO-lightgrey
@@ -84,3 +84,5 @@ Enigmo encriptador de texto © 2023 by Cristian Herrera is licensed under CC BY-
 [licencia-url]: license.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0A66C2
 [linkedin-url]: https://www.linkedin.com/in/cristianherrerap/
+[leeme-shield]: https://img.shields.io/badge/ES-Leer%20en%20espa%C3%B1ol-success
+[leeme-url]: README_es.md
